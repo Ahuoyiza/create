@@ -1,10 +1,19 @@
-import React from 'react'
+import Link from "next/link"
 
 const Nav = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+        <nav>
+            <div>Create</div>
+            <div>
+                <Link href="/">Home</Link>
+                <Link href="/CreateUser">Create User</Link>
+                <Link href="/MemberClient">Client Member</Link>
+                <Link href="/Member">Member</Link>
+                <Link href="/Public">Public</Link>
+            </div>
+        </nav>
+    </header>
   )
 }
 
